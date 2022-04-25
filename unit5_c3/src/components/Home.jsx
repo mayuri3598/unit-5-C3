@@ -20,13 +20,13 @@ export const Home = () => {
             Total Employees<span className="totalemp"></span>
           </div>
           <div>
-            Total Terminated: <span className="total_terminated"></span>
+            Total Terminated: <span className="total_terminated">0</span>
           </div>
           <div>
-            Total Promoted: <span className="total_promoted"></span>
+            Total Promoted: <span className="total_promoted">0</span>
           </div>
           <div>
-            Total New: <span className="total_new"></span>
+            Total New: <span className="total_new">0</span>
           </div>
         </div>
       </>

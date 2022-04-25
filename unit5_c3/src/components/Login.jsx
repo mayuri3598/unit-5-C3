@@ -36,6 +36,14 @@ export const Login = () => {
 				type='text'
 				placeholder='Enter username'
 				className='login_username'
+				style={{
+					border: '1px solid #ccc',
+					borderRadius: '5px',
+					padding: '10px',
+					margin: '10px',
+					backgroundColor: '#fafafa',
+					// height: '40px',
+				}}
 				onChange={handleChange}
 			/>
 			<input
@@ -43,9 +51,24 @@ export const Login = () => {
 				type='text'
 				placeholder='Enter password'
 				className='login_password'
+				style={{
+					marginTop: '10px',
+					border: '1px solid #ccc',
+					borderRadius: '5px',
+					padding: '10px',
+					margin: '10px',
+					
+										
+				}}
 				onChange={handleChange}
 			/>
-			<input type='submit' value='SIGN IN' className='login_submit' />
+			<input style={{
+				backgroundColor: '#00b894',
+				color: 'white',
+				border: 'none',
+				padding: '10px 15px',
+				borderRadius: '3px',
+			}} type='submit' value='SIGN IN' className='login_submit' />
 		</form>
 	);
 };

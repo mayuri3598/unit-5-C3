@@ -1,7 +1,10 @@
 .list_container{
     display: flex;
+    /* padding: 20px;
+    background-color: red; */
 }
 .list_container img{
+    /* background-color: transparent; */
 width: 200px;
 height: 300px;
 margin-right: 20px;
